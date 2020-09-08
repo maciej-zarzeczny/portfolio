@@ -1,0 +1,26 @@
+:root {
+  /* THEME COLORS */
+  --background-dark: #25272a;
+  --background-light: #2c2f32;
+  --accent: #098dec;
+  --gray: #959494;
+  --white: #fff;
+
+  /* FONT SIZES */
+  --font-xl: 50px;
+  --font-l: 24px;
+  --font-m: 20px;
+  --font-text: 16px;
+
+  /* MOBILE FONT SIZES */
+  --font-xl-mobile: 24px;
+  --font-l-mobile: 16px;
+  --font-text-mobile: 14px;
+  --font-xs: 12px;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  padding: 0;
+  margin: 0;
+}
