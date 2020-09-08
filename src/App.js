@@ -1,10 +1,16 @@
 import React from "react";
 import "./App.css";
 
+import { Navbar } from "./components/Navbar/Navbar";
+import { HomePage } from "./components/HomePage/HomePage";
+import { SkillsPage } from "./components/SkillsPage/SkillsPage";
+
 function App() {
   return (
     <div className="App">
-      <h1>Portfolio</h1>
+      <Navbar />
+      <HomePage />
+      <SkillsPage />
     </div>
   );
 }

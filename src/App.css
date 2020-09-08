@@ -17,10 +17,64 @@
   --font-l-mobile: 16px;
   --font-text-mobile: 14px;
   --font-xs: 12px;
+
+  --navbar-height: 100px;
+  --navbar-height-minimized: 75px;
 }
 
 body {
   font-family: "Nunito", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
   padding: 0;
   margin: 0;
+}
+
+/* GLOBALS */
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.header {
+  font-size: var(--font-xl);
+  color: var(--white);
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  font-size: var(--font-l);
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.text {
+  font-size: var(--font-text);
+  font-weight: 300;
+  color: var(--gray);
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  background-color: var(--accent);
+  color: var(--background-dark);
+  border: 2px solid var(--accent);
+  outline: none;
+  font-size: var(--font-text);
+  font-weight: 400;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: transparent;
+  color: var(--accent);
 }

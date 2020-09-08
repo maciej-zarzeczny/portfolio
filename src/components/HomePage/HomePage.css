@@ -1,0 +1,38 @@
+.home-page {
+  background-color: var(--background-light);
+}
+
+.home-page__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.name {
+  color: var(--accent);
+}
+
+.learn-more-btn {
+  margin-top: 30px;
+}
+
+.bottom-bar {
+  position: absolute;
+  bottom: 0;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.bottom-bar__info {
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.bottom-bar__info > .text {
+  margin-left: 10px;
+}
