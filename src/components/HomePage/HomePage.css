@@ -68,6 +68,8 @@
 
   .bottom-bar {
     position: relative;
+    padding: 20px 0;
+    margin-bottom: var(--navbar-height-minimized);
   }
 
   .bottom-bar__info {
