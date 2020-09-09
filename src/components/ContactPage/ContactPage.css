@@ -1,0 +1,48 @@
+.contact-page {
+  background-image: url("../../assets/images/bg/bg-contact-page.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-page__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.contact-info__title {
+  padding: 20px 0;
+}
+
+.contact-info__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  color: var(--gray);
+}
+
+.contact-info__item__icon {
+  margin-right: 20px;
+}
+
+/* MOBILE VERSION */
+@media only screen and (max-width: 1100px) {
+  .contact-page {
+    background-image: none;
+    background-color: var(--background-light);
+    padding-bottom: var(--navbar-height-minimized);
+  }
+
+  .contact-page__content {
+    min-height: fit-content;
+    display: block;
+    padding-top: 100px;
+  }
+
+  .contact-page__illustration {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+  }
+}

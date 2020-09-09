@@ -1,4 +1,123 @@
 .skills-page {
+  background-image: url("../../assets/images/bg/bg-skills-page.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.skills-page__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   min-height: 100vh;
-  background-color: var(--background-dark);
+}
+
+.skill-card {
+  background-color: var(--background-light);
+  border-radius: 15px;
+  padding: 40px;
+  min-width: 20vw;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.skill-card header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill-card__title,
+.skill-card__icon {
+  color: var(--white);
+}
+
+.skill-card__title--accent,
+.skill-card__icon--accent {
+  color: var(--accent);
+}
+
+.skill-card__skills {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 40px;
+}
+
+.skill-card__skills__item {
+  color: var(--white);
+  padding: 0.25rem 0.75rem;
+  border: 1px solid var(--white);
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.introduction {
+  margin-left: 50px;
+}
+
+.introduction__title {
+  margin: 20px 0;
+}
+
+.introduction__content {
+  text-align: justify;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+/* MOBILE VERSION */
+@media only screen and (max-width: 1100px) {
+  .skills-page {
+    background-image: url("../../assets/images/bg/bg-mobile-skills-page.svg");
+  }
+
+  .skills-page__content {
+    display: block;
+    min-height: fit-content;
+  }
+
+  .skills {
+    display: flex;
+    overflow-x: auto;
+    margin-right: -16px;
+    padding-top: 100px;
+  }
+
+  .skills::-webkit-scrollbar {
+    display: none;
+  }
+
+  .skill-card {
+    min-width: 200px;
+    margin-right: 10px;
+  }
+
+  .skill-card__skills {
+    display: block;
+  }
+
+  .skill-card__skills__item {
+    margin-bottom: 10px;
+    border: none;
+    padding: 0;
+  }
+
+  .skill-card__title,
+  .skill-card__icon {
+    color: var(--accent);
+  }
+
+  .introduction {
+    margin: 0;
+  }
+
+  .introduction__content {
+    margin: 0;
+  }
+
+  .introduction .text {
+    margin-top: 40px;
+  }
+
+  .introduction button {
+    display: none;
+  }
 }

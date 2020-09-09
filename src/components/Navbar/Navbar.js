@@ -3,6 +3,7 @@ import React, { useState, useEffect, useCallback } from "react";
 import "./Navbar.css";
 
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { MdHome, MdReorder, MdWork, MdPerson } from "react-icons/md";
 
 export const Navbar = () => {
   const [isMinimized, setIsMinimized] = useState(false);
@@ -25,10 +26,25 @@ export const Navbar = () => {
     <nav className={`nav ${isMinimized ? "nav--minimized" : ""}`}>
       <div className="container navbar">
         <ul>
-          <li className="navbar__item navbar__item--active">About</li>
-          <li className="navbar__item">Skills</li>
-          <li className="navbar__item">Projects</li>
-          <li className="navbar__item">Contact</li>
+          <li className="navbar__item navbar__item--active">
+            <MdHome className="title navbar__item__icon" />
+            <p className="navbar__item__content">Home</p>
+          </li>
+
+          <li className="navbar__item">
+            <MdReorder className="title navbar__item__icon" />
+            <p className="navbar__item__content">Skills</p>
+          </li>
+
+          <li className="navbar__item">
+            <MdWork className="title navbar__item__icon" />
+            <p className="navbar__item__content">Projects</p>
+          </li>
+
+          <li className="navbar__item">
+            <MdPerson className="title navbar__item__icon" />
+            <p className="navbar__item__content">Contact</p>
+          </li>
         </ul>
 
         <ul>
