@@ -62,7 +62,7 @@ export const SkillsPage = () => {
         <section className="introduction">
           <p className="text">Introduction</p>
           <h1 className="header introduction__title">
-            Hello! I'm Dev <br /> Hustle
+            Hello! I'm Maciej <br /> Zarzeczny
           </h1>
 
           <p className="text introduction__content">

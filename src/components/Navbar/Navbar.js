@@ -86,10 +86,18 @@ export const Navbar = () => {
 
         <ul>
           <li className="navbar__item navbar__item--icon">
-            <FaGithub data-tip="Github" />
+            <a href="https://github.com/maciekz1996" target="_blank" rel="noopener noreferrer">
+              <FaGithub data-tip="Github" />
+            </a>
           </li>
           <li className="navbar__item navbar__item--icon">
-            <FaLinkedinIn data-tip="Linkedin" />
+            <a
+              href="https://www.linkedin.com/in/maciej-zarzeczny-03636918b/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedinIn data-tip="Linkedin" />
+            </a>
           </li>
         </ul>
         <ReactTooltip place="bottom" effect="solid" offset={{ bottom: 5 }} />

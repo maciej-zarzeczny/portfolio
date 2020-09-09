@@ -21,10 +21,22 @@
   max-width: 50%;
 }
 
+.home-page__illustration #skills {
+  transform-box: fill-box;
+  transform-origin: center center;
+  animation: main-illustration-anim 20s infinite linear;
+}
+
 .home-page__illustration--mobile {
   display: none;
   max-width: 70%;
   height: auto;
+}
+
+.home-page__illustration--mobile #skills {
+  transform-box: fill-box;
+  transform-origin: center center;
+  animation: main-illustration-anim 20s infinite linear;
 }
 
 .bottom-bar {
@@ -49,6 +61,15 @@
 
 .bottom-bar__info > .text {
   margin-left: 10px;
+}
+
+@keyframes main-illustration-anim {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 /* MOBILE VERSION */

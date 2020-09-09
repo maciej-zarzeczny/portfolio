@@ -307,7 +307,7 @@ export const HomePage = () => {
         </svg>
 
         <header>
-          <h3 className="title name">Dev Hustle</h3>
+          <h3 className="title name">Maciej Zarzeczny</h3>
           <h1 className="header">Frontend Developer</h1>
           <h1 className="header">Mobile developer</h1>
 
@@ -613,7 +613,7 @@ export const HomePage = () => {
           </div>
 
           <div className="bottom-bar__info">
-            <h1 className="header">10+</h1>
+            <h1 className="header">7+</h1>
             <p className="text">
               PROJECTS <br /> MADE
             </p>

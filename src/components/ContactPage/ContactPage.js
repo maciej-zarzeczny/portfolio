@@ -20,12 +20,12 @@ export const ContactPage = () => {
 
           <div className="contact-info__item">
             <MdEmail className="title contact-info__item__icon" />
-            <p className="text contact-info__item__content">dev.hustle2@gmail.com</p>
+            <p className="text contact-info__item__content">maciej.zarzeczny1@gmail.com</p>
           </div>
 
           <div className="contact-info__item">
             <MdPhone className="title contact-info__item__icon" />
-            <p className="text contact-info__item__content">+48 123 456 789</p>
+            <p className="text contact-info__item__content">+48 728 368 865</p>
           </div>
         </section>
 
@@ -326,11 +326,20 @@ export const ContactPage = () => {
 
       <footer className="footer">
         <section>
-          <FaGithub className="title footer__icon" />
-          <FaLinkedinIn className="title footer__icon" />
+          <a href="https://github.com/maciekz1996" target="_blank" rel="noopener noreferrer">
+            <FaGithub className="title footer__icon" />
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/maciej-zarzeczny-03636918b/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedinIn className="title footer__icon" />
+          </a>
         </section>
 
-        <p className="text footer__content">Dev Hustle {year}</p>
+        <p className="text footer__content">Maciej Zarzeczny {year}</p>
       </footer>
     </div>
   );
