@@ -2,10 +2,13 @@ import React from "react";
 
 import "./ContactPage.css";
 import { MdEmail, MdPhone } from "react-icons/md";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 export const ContactPage = () => {
+  const year = new Date().getFullYear();
+
   return (
-    <div className="contact-page">
+    <div className="contact-page" name="contact-page">
       <div className="container contact-page__content">
         <section className="contact-info">
           <p className="text">Contact</p>
@@ -320,6 +323,15 @@ export const ContactPage = () => {
           </g>
         </svg>
       </div>
+
+      <footer className="footer">
+        <section>
+          <FaGithub className="title footer__icon" />
+          <FaLinkedinIn className="title footer__icon" />
+        </section>
+
+        <p className="text footer__content">Dev Hustle {year}</p>
+      </footer>
     </div>
   );
 };

@@ -6,7 +6,7 @@ import ProjectImage2 from "../../assets/images/projects/sample_2.png";
 
 export const ProjectsPage = () => {
   return (
-    <div className="projects-page">
+    <div className="projects-page" name="projects-page">
       <div className="container projects-page__content">
         <p className="text">Recent projects</p>
 

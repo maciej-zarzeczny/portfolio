@@ -1,11 +1,25 @@
-import React from "react";
+import React, { useState, useEffect, useCallback } from "react";
+import { Link } from "react-scroll";
 
 import "./HomePage.css";
 
 export const HomePage = () => {
+  const [pageHeight, setPageHeight] = useState(0);
+
+  const handleResize = useCallback(() => {
+    if (Math.abs(window.innerHeight - pageHeight) >= 200) setPageHeight(window.innerHeight);
+  }, [pageHeight]);
+
+  useEffect(() => {
+    if (pageHeight === 0) handleResize();
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, [pageHeight, handleResize]);
+
   return (
-    <div className="home-page">
-      <div className="container home-page__content">
+    <div className="home-page" name="home-page">
+      <div className="container home-page__content" style={{ minHeight: pageHeight }}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="760"
@@ -297,7 +311,11 @@ export const HomePage = () => {
           <h1 className="header">Frontend Developer</h1>
           <h1 className="header">Mobile developer</h1>
 
-          <button className="button learn-more-btn">Learn more</button>
+          <button className="button learn-more-btn">
+            <Link to="skills-page" spy={true} smooth={true} duration={500}>
+              Learn more
+            </Link>
+          </button>
         </header>
 
         <svg

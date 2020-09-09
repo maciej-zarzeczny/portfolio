@@ -29,11 +29,17 @@ body {
 
   padding: 0;
   margin: 0;
+
+  background-color: var(--background-light);
 }
 
 p {
   padding: 0;
   margin: 0;
+}
+
+a {
+  -webkit-tap-highlight-color: transparent;
 }
 
 /* GLOBALS */
@@ -77,6 +83,7 @@ p {
   border-radius: 5px;
   padding: 0.5rem 1rem;
   transition: all 0.2s ease-in-out;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .button:hover {
@@ -105,5 +112,13 @@ p {
   .button {
     font-size: var(--font-text-mobile);
     padding: 0.25rem 0.75rem;
+  }
+}
+
+/* DISABLE HOVER EFFECTS ON MOBILE DEVICES */
+@media (hover: none) {
+  .button:hover {
+    background-color: var(--accent);
+    color: var(--background-dark);
   }
 }

@@ -26,6 +26,26 @@
   margin-right: 20px;
 }
 
+.footer {
+  text-align: center;
+}
+
+.footer__icon {
+  color: var(--white);
+  padding: 10px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.footer__icon:hover {
+  color: var(--accent);
+}
+
+.footer__content {
+  color: var(--white);
+  padding-bottom: 40px;
+}
+
 /* MOBILE VERSION */
 @media only screen and (max-width: 1100px) {
   .contact-page {

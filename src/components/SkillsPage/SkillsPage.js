@@ -1,5 +1,6 @@
 import React from "react";
 import { FaCode, FaMobileAlt, FaDatabase } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 import "./SkillsPage.css";
 
@@ -27,7 +28,7 @@ export const SkillsPage = () => {
   ));
 
   return (
-    <div className="skills-page">
+    <div className="skills-page" name="skills-page">
       <div className="container skills-page__content">
         <section className="skills">
           <article className="skill-card">
@@ -80,7 +81,11 @@ export const SkillsPage = () => {
             was responsible for developing UI’s and REST API’s for modern vending machines.{" "}
           </p>
 
-          <button className="button">See projects</button>
+          <button className="button">
+            <Link to="projects-page" spy={true} smooth={true} duration={500}>
+              See projects
+            </Link>
+          </button>
         </section>
       </div>
     </div>

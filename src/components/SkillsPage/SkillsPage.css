@@ -79,6 +79,9 @@
     overflow-x: auto;
     margin-right: -16px;
     padding-top: 100px;
+
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
   }
 
   .skills::-webkit-scrollbar {
