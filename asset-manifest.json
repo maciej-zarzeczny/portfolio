@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.a7d42689.chunk.css",
-    "main.js": "/portfolio/static/js/main.979c8e69.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.979c8e69.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.0674cb11.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.0674cb11.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.314d17bb.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.314d17bb.js.map",
-    "static/js/2.b21eab96.chunk.js": "/portfolio/static/js/2.b21eab96.chunk.js",
-    "static/js/2.b21eab96.chunk.js.map": "/portfolio/static/js/2.b21eab96.chunk.js.map",
+    "static/js/2.60353772.chunk.js": "/portfolio/static/js/2.60353772.chunk.js",
+    "static/js/2.60353772.chunk.js.map": "/portfolio/static/js/2.60353772.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.fd53aacc7e05f318b8c66a024fb96a91.js": "/portfolio/precache-manifest.fd53aacc7e05f318b8c66a024fb96a91.js",
+    "precache-manifest.47f2e693a6c7f817f2deb4efbc790c88.js": "/portfolio/precache-manifest.47f2e693a6c7f817f2deb4efbc790c88.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.a7d42689.chunk.css.map": "/portfolio/static/css/main.a7d42689.chunk.css.map",
-    "static/js/2.b21eab96.chunk.js.LICENSE.txt": "/portfolio/static/js/2.b21eab96.chunk.js.LICENSE.txt",
+    "static/js/2.60353772.chunk.js.LICENSE.txt": "/portfolio/static/js/2.60353772.chunk.js.LICENSE.txt",
     "static/media/ballin.png": "/portfolio/static/media/ballin.460d9424.png",
     "static/media/ContactPage.css": "/portfolio/static/media/bg-contact-page.87b0dd61.svg",
     "static/media/ProjectsPage.css": "/portfolio/static/media/bg-projects-page.182996c2.svg",
     "static/media/SkillsPage.css": "/portfolio/static/media/bg-skills-page.e5852b8c.svg",
+    "static/media/covid-tracker.png": "/portfolio/static/media/covid-tracker.39b83d47.png",
     "static/media/gymino-app.png": "/portfolio/static/media/gymino-app.1d253773.png",
     "static/media/gymino-dashboard.png": "/portfolio/static/media/gymino-dashboard.15ec172c.png",
     "static/media/instagram_clone.png": "/portfolio/static/media/instagram_clone.c7273b44.png",
@@ -25,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.314d17bb.js",
-    "static/js/2.b21eab96.chunk.js",
+    "static/js/2.60353772.chunk.js",
     "static/css/main.a7d42689.chunk.css",
-    "static/js/main.979c8e69.chunk.js"
+    "static/js/main.0674cb11.chunk.js"
   ]
 }
