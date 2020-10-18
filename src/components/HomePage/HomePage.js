@@ -613,7 +613,7 @@ export const HomePage = () => {
           </div>
 
           <div className="bottom-bar__info">
-            <h1 className="header">7+</h1>
+            <h1 className="header">8+</h1>
             <p className="text">
               PROJECTS <br /> MADE
             </p>

@@ -8,6 +8,7 @@ import Polska from "../../assets/images/projects/polskalokalna.png";
 import Gymino from "../../assets/images/projects/gymino-dashboard.png";
 import GyminoApp from "../../assets/images/projects/gymino-app.png";
 import Ballin from "../../assets/images/projects/ballin.png";
+import CovidTracker from "../../assets/images/projects/covid-tracker.png";
 
 export const ProjectsPage = () => {
   return (
@@ -16,6 +17,18 @@ export const ProjectsPage = () => {
         <p className="text">Recent projects</p>
 
         <section className="projects">
+          <a
+            href="https://github.com/maciekz1996/covid-tracker"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <article className="project">
+              <img src={CovidTracker} alt="Covid tracker" className="project__image" />
+
+              <h3 className="title project__title">Coronavirus dashboard</h3>
+            </article>
+          </a>
+
           <a
             href="https://github.com/maciekz1996/instagram-clone"
             target="_blank"
